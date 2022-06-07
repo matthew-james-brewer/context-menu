@@ -1,0 +1,9 @@
+context-menu {
+display: none;
+border: 6px solid gray;
+position: absolute;
+}
+context-menu button {
+color: black;
+background-color: white;
+}
