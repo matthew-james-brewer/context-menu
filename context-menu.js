@@ -2,6 +2,11 @@
 document.createElement("context-menu");
 
 function menu(id) {
+var element = document.getElementById();
 window.open("#"+id, "_self"); //to get to the menu
-document.getElementById(id).style.display = "block";
+element.style.display = "block";
+var tag = document.createElement("h1");
+var text = document.createTextNode(id);
+tag.appendChild(text);
+element.appendChild(tag);
 }
